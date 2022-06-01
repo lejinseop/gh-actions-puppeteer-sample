@@ -22,5 +22,6 @@ jobs:
     - name: Access alpacadevv
       run: yarn execute
       env:
-        CI: true
         TEST_ENV: ${{ secrets.TEST_ENV }}
+      run:
+        echo ${{ secrets.TEST_ENV }}
