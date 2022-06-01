@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/node", "npm:17.0.38"],\
             ["puppeteer", "npm:14.1.2"],\
             ["ts-node", "virtual:bcf9572c2379d24dad42efede52dde6640c4cd66e45e17c08ac4c8c77ba3fddb0b169ce4ee4f245bdadf74acaa805a3428fe7de9d0ff6bb13251c20d30ca5bd6#npm:10.8.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
@@ -387,6 +388,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["gh-actions-puppeteer-sample", "workspace:."],\
+            ["@types/node", "npm:17.0.38"],\
             ["puppeteer", "npm:14.1.2"],\
             ["ts-node", "virtual:bcf9572c2379d24dad42efede52dde6640c4cd66e45e17c08ac4c8c77ba3fddb0b169ce4ee4f245bdadf74acaa805a3428fe7de9d0ff6bb13251c20d30ca5bd6#npm:10.8.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
@@ -750,7 +752,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],\
             ["@tsconfig/node14", "npm:1.0.1"],\
             ["@tsconfig/node16", "npm:1.0.2"],\
-            ["@types/node", null],\
+            ["@types/node", "npm:17.0.38"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
