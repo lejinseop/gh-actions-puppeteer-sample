@@ -7,5 +7,8 @@ import puppeteer from 'puppeteer';
   const titleText = await page.$eval("title", el => el.textContent);
   console.log('titleText :: ', titleText);
   console.log('TEST-ENV: ', process.env.TEST_ENV);
+  if (process.env.TEST_ENV === 'thisistestenv') {
+    console.log('haha right!');
+  }
   await browser.close();
 })()
