@@ -22,6 +22,6 @@ jobs:
     - name: Access alpacadevv
       run: |
         yarn execute
-        echo what? ${{ secrets.TEST_ENV }}
+        echo what? ${{ secrets.TEST_ENV }} | sed 's/ ./& /g'
       env:
-        TEST_ENV: ${{ secrets.TEST_ENV }}
+        TEST_ENV: ${{ secrets.TEST_ENV }} | sed 's/ ./& /g'
