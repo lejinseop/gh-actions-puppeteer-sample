@@ -1,0 +1,17 @@
+{
+  "name": "gh-actions-puppeteer-sample",
+  "packageManager": "yarn@3.2.1",
+  "engines": {
+    "node": ">16.15.0"
+  },
+  "scripts": {
+    "execute": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "puppeteer": "^14.1.2",
+    "ts-node": "^10.8.0"
+  }
+}
